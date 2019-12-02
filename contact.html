@@ -53,21 +53,25 @@
             </div>
 
             <div class="contact-form">
-                <form method="post" action="">
-                    <p>Name</p>
-                    <input name="name" type="text" class="form" placeholder="Your Name" requierd><br>
-
-                    <p>Email</p>
-                    <input name="email" type="email" class="form" placeholder="Your Email" required><br>
-
-                    <p>Message</p>
-                    <textarea name="message" class="form-comtrol" placeholder="" rows="4" required></textarea><br>
-
-                    <input type="submit" class="submit" value="SUBMIT">
-
-
-                </form>
-
+                    <form>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Name</label>
+                                <input type="password" class="form-control" placeholder="Your Name">
+                              </div>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Email</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="validationTextarea">Message</label>
+                                <textarea class="form-control" id="validationTextarea" placeholder="Your meassage here" required></textarea>
+                                <div class="invalid-feedback">
+                                  Please enter a message in the textarea.
+                                </div>
+                              </div>
+                            <button type="submit" class="btn btn-info">Submit</button>
+                          </form>
+                    
             </div>
         </div>
     </div>
