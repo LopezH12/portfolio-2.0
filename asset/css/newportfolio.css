@@ -65,7 +65,7 @@ nav a {
 }
 
 .content-1 {
-    background-image: url("../my-cool-portflio/assets/images/embossed-diamond.png");
+    background-image: url("/Desktop/UW-Code-Boot-Camp/Homework/portfolio-2.0/asset/images/embossed-diamond.png");
     padding-top: 20px;
     padding-bottom: 20px;
 
@@ -79,8 +79,6 @@ nav a {
 .head {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-   
-
 }
 .img-index {
     margin-top: 15px;
@@ -95,6 +93,8 @@ nav a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     line-height: 85px;
+   
+}
 
 }
 
@@ -176,3 +176,4 @@ h2 {
     margin-left: 170px;
     margin-right: 170px;
 }
+

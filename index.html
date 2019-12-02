@@ -5,19 +5,40 @@
     <meta charset="UTF-8">
     <title>Henry's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="asset/css/newportfolio.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 
 <body>
     <header>
-        <div class="header">
 
-            <h1 class="name">Henry Lopez</h1>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="name">
+                <a class="navbar-brand"
+                    style="font-family: Georgia, 'Times New Roman', Times, serif; color: white; font-size: 2rem;">Henry
+                    Lopez</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
     </header>
 
 
@@ -29,8 +50,7 @@
                 <h1 class="head">About Me</h1>
 
                 <div class="self">
-                    <img src="asset/images/IMG-0741 (1).JPG"
-                        height="275" width="275" class="ima">
+                    <img src="asset/images/IMG-0741 (1).JPG" height="275" width="275" class="ima">
 
 
                 </div>
