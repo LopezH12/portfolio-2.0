@@ -96,7 +96,7 @@ nav a {
    
 }
 
-}
+
 
 .moreinfo {
     color:#777777;
@@ -157,23 +157,6 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.flex {
-    display: flex;
-    flex-wrap:;  
-    flex-direction: row;
-    align-content:center;
-    justify-content: space-around;
-    margin-left: 170px;
-    margin-right: 170px;   
-}
 
-.flex2 {
-    display: flex;
-    flex-wrap: wrap ;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-around;
-    margin-left: 170px;
-    margin-right: 170px;
-}
+
 
