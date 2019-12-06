@@ -34,7 +34,7 @@
 }
 
 .content-1 {
-    background-image: url("/Desktop/UW-Code-Boot-Camp/Homework/portfolio-2.0/asset/images/beanstalk.png");
+    background-image: url("../images/beanstalk.png");
     padding-top: 20px;
     padding-bottom: 20px;
 
@@ -64,6 +64,10 @@
 .moreinfo {
     color:#777777;
 
+}
+
+.container {
+    margin:
 }
 
 .contact-title {
